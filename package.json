@@ -6,9 +6,8 @@
   "devDependencies": {
     "typescript": "^4.6.3"
   },
-      "scripts": {
-            "start:db": "json-server --watch db.json",
-            "start:parcel": "parcel index.html"
-      }
-
+  "scripts": {
+    "start:db": "json-server --watch db.json",
+    "start:parcel": "parcel index.html"
+  }
 }
