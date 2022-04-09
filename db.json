@@ -1,9 +1,9 @@
 {
   "users": [
     {
-      "name": "Johnuuuu",
-      "age": 30,
-      "id": 1
+      "id": 1,
+      "name": "John",
+      "age": 30
     },
     {
       "id": 2,
@@ -26,37 +26,37 @@
       "id": 5
     },
     {
-      "name": "Djura",
+      "name": "Doe",
       "age": 25,
       "id": 6
     },
     {
-      "name": "Djura",
+      "name": "Doe",
       "age": 25,
       "id": 7
     },
     {
-      "name": "Djura",
+      "name": "Doe",
       "age": 25,
       "id": 8
     },
     {
-      "name": "Djura",
+      "name": "Lola",
       "age": 25,
       "id": 9
     },
     {
-      "name": "Djura",
+      "name": "Lola",
       "age": 25,
       "id": 10
     },
     {
-      "name": "Djura",
+      "name": "Bill",
       "age": 25,
       "id": 11
     },
     {
-      "name": "Djura",
+      "name": "Beat",
       "age": 25,
       "id": 12
     },

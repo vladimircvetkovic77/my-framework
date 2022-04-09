@@ -1,13 +1,9 @@
 import { User } from './models/User';
-import axios from 'axios';
 
-const user = new User({ id: 16, name: 'Lolita', age: 15 });
+const collection = User.buildUserCollection();
 
-user.on('change', () => {
-      console.log('User changed');
-});
-
-user.trigger('change');
-
-console.log(user.get('name'));
-user.save();
+collection.on('change', () => {
+      const users = collection.models;
+      console.log(collection);
+      });
+collection.fetch();
