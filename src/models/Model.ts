@@ -44,6 +44,7 @@ export class Model<T extends HasId> {
       save(): void {
            this.sync.save(this.attributes.getAll())
             .then((res: AxiosResponse): void => {
+                  this.set(res.data)
                   this.trigger('save')
             })
             .catch(() => {
