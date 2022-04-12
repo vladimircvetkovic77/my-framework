@@ -19,7 +19,7 @@ export class Eventing implements InterfaceEventing {
        }
       trigger = (eventName: string): void => {
             if (this.events[eventName]) {
-                  console.log(`### ${eventName.toUpperCase()} ### event triggered`);
+                  console.log(`### ${eventName.toUpperCase()} event triggered ###`);
                   this.events[eventName].forEach(callback => callback());
             }
       }
